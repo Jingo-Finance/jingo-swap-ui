@@ -68,7 +68,7 @@ type ChainInfoMap = { readonly [chainId: number]: L1ChainInfo | L2ChainInfo } & 
 const CHAIN_INFO: ChainInfoMap = {
   [ChainId.MAINNET]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.jingo.finance/',
     explorer: 'https://etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Ethereum',
@@ -78,7 +78,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [ChainId.PLASMA]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.jingo.finance/',
     explorer: 'https://plasmascan.to/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Plasma',
@@ -90,7 +90,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },  
   [ChainId.GOERLI]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.jingo.finance/',
     explorer: 'https://goerli.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Görli',
@@ -100,7 +100,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [ChainId.SEPOLIA]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.jingo.finance/',
     explorer: 'https://sepolia.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Sepolia',
