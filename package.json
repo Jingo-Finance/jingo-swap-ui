@@ -180,10 +180,10 @@
     "@uniswap/permit2-sdk": "^1.2.0",
     "@uniswap/redux-multicall": "^1.1.8",
     "@uniswap/router-sdk": "^1.6.0",
-    "@uniswap/sdk-core": "github:dmitro3/UniswapV3SDKCORE",
+    "@uniswap/sdk-core": "github:Jingo-Finance/UniswapV3SDKCORE",
     "@uniswap/smart-order-router": "Jingo-Finance/UniswapV3SDKSMART",
     "@uniswap/token-lists": "^1.0.0-beta.33",
-    "@uniswap/universal-router-sdk": "github:dmitro3/UniversionRouterSDK",
+    "@uniswap/universal-router-sdk": "github:Jingo-Finance/UniversionRouterSDK",
     "@uniswap/v2-core": "^1.0.1",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",
     "@uniswap/v2-sdk": "^3.2.0",
@@ -288,9 +288,9 @@
   },
   "homepage": "./",
   "overrides": {
-    "@uniswap/sdk-core": "github:dmitro3/UniswapV3SDKCORE"
+    "@uniswap/sdk-core": "github:Jingo-Finance/UniswapV3SDKCORE"
   },
   "resolutions": {
-    "@uniswap/sdk-core": "github:dmitro3/UniswapV3SDKCORE"
+    "@uniswap/sdk-core": "github:Jingo-Finance/UniswapV3SDKCORE"
   }
 }
