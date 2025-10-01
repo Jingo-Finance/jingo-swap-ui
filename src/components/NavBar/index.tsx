@@ -58,7 +58,7 @@ export const PageTabs = () => {
         <Trans>Pools</Trans>
       </MenuItem>
       <MenuItem href="/whatishorswap">
-        <Trans>What is Horswap?</Trans>
+        <Trans>What is Jingo?</Trans>
       </MenuItem>
       <Box marginY="4">
         <MenuDropdown />

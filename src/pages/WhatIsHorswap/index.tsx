@@ -39,7 +39,7 @@ export default function WhatIsHorswap() {
     <PageWrapper>
       <Header>
         <Container>
-          <Title>What is Horswap?</Title>
+          <Title>What is Jingo?</Title>
         </Container>
       </Header>
       <AutoColumn gap="md">
