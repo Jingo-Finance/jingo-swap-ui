@@ -5,8 +5,8 @@ The #1 DefiPad
 <img src="screenshot.png" style="width: 500px" />
 
 Check out Horswap via:
-- [https://jingo.finance/](https://x.com/JingoFinance)
-- [https://x.com/JingoFinance](Follow Us on X)
+-Website [https://jingo.finance](https://jingo.finance)
+- Join X[https://x.com/JingoFinance](https://x.com/JingoFinance)
 - [All Socials](https://link3.to/jingo)
 
 # Jingo Finance is an improved Uniswap Interface
