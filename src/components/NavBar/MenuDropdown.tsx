@@ -138,10 +138,10 @@ export const MenuDropdown = () => {
                 <Icon href="https://discord.com/invite/aCSKcvf5VW">
                   <DiscordIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://twitter.com/DarkFlorist">
+                <Icon href="https://x.com/JingoFinance">
                   <TwitterIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://github.com/DarkFlorist/Horswap">
+                <Icon href="https://github.com/Jingo-Finance">
                   <GithubIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
               </IconRow>

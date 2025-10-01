@@ -95,10 +95,10 @@ const LogoSectionContent = () => {
         <SocialLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://twitter.com/DarkFlorist" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://x.com/JingoFinance" target="_blank" rel="noopener noreferrer">
           <TwitterIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://github.com/DarkFlorist/Horswap" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/Jingo-Finance" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
@@ -129,7 +129,7 @@ export const AboutFooter = () => {
         <LinkGroup>
           <LinkGroupTitle>Get Help</LinkGroupTitle>
           <ExternalTextLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
-            Contact Us On Discord
+            Discord
           </ExternalTextLink>
           <ExternalTextLink href="https://support.jingo.finance">Help Center</ExternalTextLink>
         </LinkGroup>
