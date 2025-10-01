@@ -5138,9 +5138,9 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/smart-order-router@dmitro3/UniswapV3SDKSMART":
+"@uniswap/smart-order-router@Jingo-Finance/UniswapV3SDKSMART":
   version "3.15.0"
-  resolved "https://codeload.github.com/dmitro3/UniswapV3SDKSMART/tar.gz/c0ecc1d7324746b4b403ac2d0bd9db10454292b6"
+  resolved "https://codeload.github.com/Jingo-Finance/UniswapV3SDKSMART/tar.gz/e83eb27938486df67f26d65eaf1510abb7f9fd27"
   dependencies:
     "@uniswap/default-token-list" "^11.2.0"
     "@uniswap/permit2-sdk" "^1.2.0"

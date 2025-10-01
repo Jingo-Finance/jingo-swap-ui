@@ -181,7 +181,7 @@
     "@uniswap/redux-multicall": "^1.1.8",
     "@uniswap/router-sdk": "^1.6.0",
     "@uniswap/sdk-core": "github:dmitro3/UniswapV3SDKCORE",
-    "@uniswap/smart-order-router": "dmitro3/UniswapV3SDKSMART",
+    "@uniswap/smart-order-router": "Jingo-Finance/UniswapV3SDKSMART",
     "@uniswap/token-lists": "^1.0.0-beta.33",
     "@uniswap/universal-router-sdk": "github:dmitro3/UniversionRouterSDK",
     "@uniswap/v2-core": "^1.0.1",
