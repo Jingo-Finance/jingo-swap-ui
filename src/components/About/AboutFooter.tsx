@@ -122,16 +122,16 @@ export const AboutFooter = () => {
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Protocol</LinkGroupTitle>
-          <ExternalTextLink href="https://uniswap.org/community">Community</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/governance">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/developers">Developers</ExternalTextLink>
+          <ExternalTextLink href="https://link3.to/jingo">Community</ExternalTextLink>
+          <ExternalTextLink href="https://x.com/JingoFinance">Join X</ExternalTextLink>
+          <ExternalTextLink href="https://docs.jingo.finance">Developers</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Get Help</LinkGroupTitle>
           <ExternalTextLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
             Contact Us On Discord
           </ExternalTextLink>
-          <ExternalTextLink href="https://support.uniswap.org/hc/en-us">Help Center</ExternalTextLink>
+          <ExternalTextLink href="https://support.jingo.finance">Help Center</ExternalTextLink>
         </LinkGroup>
       </FooterLinks>
 
