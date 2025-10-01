@@ -44,7 +44,7 @@ export const MORE_CARDS = [
     cta: 'Provide liquidity',
   },
   {
-    to: 'https://docs.uniswap.org',
+    to: 'https://docs.jingo.finance',
     external: true,
     title: 'Build dApps',
     description: 'Build apps and tools on the largest DeFi protocol on Ethereum.',
