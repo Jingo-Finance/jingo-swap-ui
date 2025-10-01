@@ -220,7 +220,7 @@ export default function Pool() {
                   <ButtonSecondary>
                     <RowBetween>
                       <Trans>
-                        <ExternalLink href={'https://v2.info.uniswap.org/account/' + account}>
+                        <ExternalLink href={'https://v2.info.jingo.finance/account/' + account}>
                           Account analytics and accrued fees
                         </ExternalLink>
                         <span> ↗ </span>

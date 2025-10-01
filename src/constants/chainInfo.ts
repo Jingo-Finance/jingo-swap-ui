@@ -1,6 +1,7 @@
 import { ChainId } from '@uniswap/sdk-core'
 import bnbCircleLogoUrl from 'assets/images/bnbCircle.svg'
 import ethereumLogoUrl from 'assets/images/ethereum-logo.png'
+import plasmaLogo from 'assets/images/plasma-logo.png'
 import polygonCircleLogoUrl from 'assets/images/polygonCircle.png'
 import { default as arbitrumCircleLogoUrl, default as arbitrumLogoUrl } from 'assets/svg/arbitrum_logo.svg'
 import avaxLogo from 'assets/svg/avax_logo.svg'
@@ -9,7 +10,6 @@ import baseLogo from 'assets/svg/base_logo.svg'
 import baseSquareLogo from 'assets/svg/base_square_logo.svg'
 import bnbSquareLogoUrl from 'assets/svg/bnb_square_logo.svg'
 import bnbLogo from 'assets/svg/bnb-logo.svg'
-import plasmaLogo from 'assets/images/plasma-logo.png'
 import celoLogo from 'assets/svg/celo_logo.svg'
 import celoSquareLogoUrl from 'assets/svg/celo_square_logo.svg'
 import optimismSquareLogoUrl from 'assets/svg/optimism_square_logo.svg'
@@ -20,7 +20,15 @@ import ms from 'ms'
 import { darkTheme } from 'theme/colors'
 
 import { SupportedL1ChainId, SupportedL2ChainId } from './chains'
-import { ARBITRUM_LIST, AVALANCHE_LIST, BASE_LIST, CELO_LIST, OPTIMISM_LIST, PLASMA_LIST, PLASMA_BNB_LIST } from './lists'
+import {
+  ARBITRUM_LIST,
+  AVALANCHE_LIST,
+  BASE_LIST,
+  CELO_LIST,
+  OPTIMISM_LIST,
+  PLASMA_BNB_LIST,
+  PLASMA_LIST,
+} from './lists'
 
 export const AVERAGE_L1_BLOCK_TIME = ms(`12s`)
 
@@ -70,7 +78,7 @@ const CHAIN_INFO: ChainInfoMap = {
     networkType: NetworkType.L1,
     docs: 'https://docs.jingo.finance/',
     explorer: 'https://etherscan.io/',
-    infoLink: 'https://info.uniswap.org/#/',
+    infoLink: 'https://info.jingo.finance/',
     label: 'Ethereum',
     logoUrl: ethereumLogoUrl,
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
@@ -80,19 +88,19 @@ const CHAIN_INFO: ChainInfoMap = {
     networkType: NetworkType.L1,
     docs: 'https://docs.jingo.finance/',
     explorer: 'https://plasmascan.to/',
-    infoLink: 'https://info.uniswap.org/#/',
+    infoLink: 'https://info.jingo.finance/',
     label: 'Plasma',
     logoUrl: plasmaLogo,
     circleLogoUrl: arbitrumCircleLogoUrl,
-    defaultListUrl: PLASMA_LIST,	
+    defaultListUrl: PLASMA_LIST,
     nativeCurrency: { name: 'XPL', symbol: 'XPL', decimals: 18 },
     color: darkTheme.chain_1,
-  },  
+  },
   [ChainId.GOERLI]: {
     networkType: NetworkType.L1,
     docs: 'https://docs.jingo.finance/',
     explorer: 'https://goerli.etherscan.io/',
-    infoLink: 'https://info.uniswap.org/#/',
+    infoLink: 'https://info.jingo.finance/',
     label: 'Görli',
     logoUrl: ethereumLogoUrl,
     nativeCurrency: { name: 'Görli Ether', symbol: 'görETH', decimals: 18 },
@@ -102,7 +110,7 @@ const CHAIN_INFO: ChainInfoMap = {
     networkType: NetworkType.L1,
     docs: 'https://docs.jingo.finance/',
     explorer: 'https://sepolia.etherscan.io/',
-    infoLink: 'https://info.uniswap.org/#/',
+    infoLink: 'https://info.jingo.finance/',
     label: 'Sepolia',
     logoUrl: ethereumLogoUrl,
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'SepoliaETH', decimals: 18 },
@@ -115,7 +123,7 @@ const CHAIN_INFO: ChainInfoMap = {
     defaultListUrl: OPTIMISM_LIST,
     docs: 'https://optimism.io/',
     explorer: 'https://optimistic.etherscan.io/',
-    infoLink: 'https://info.uniswap.org/#/optimism/',
+    infoLink: 'https://info.jingo.finance/optimism/',
     label: 'Optimism',
     logoUrl: optimismLogoUrl,
     // Optimism perfers same icon for both
@@ -134,7 +142,7 @@ const CHAIN_INFO: ChainInfoMap = {
     defaultListUrl: OPTIMISM_LIST,
     docs: 'https://optimism.io/',
     explorer: 'https://goerli-optimism.etherscan.io/',
-    infoLink: 'https://info.uniswap.org/#/optimism/',
+    infoLink: 'https://info.jingo.finance/#/optimism/',
     label: 'Optimism Görli',
     logoUrl: optimismLogoUrl,
     statusPage: 'https://optimism.io/status',
@@ -148,7 +156,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://bridge.arbitrum.io/',
     docs: 'https://offchainlabs.com/',
     explorer: 'https://arbiscan.io/',
-    infoLink: 'https://info.uniswap.org/#/arbitrum',
+    infoLink: 'https://info.jingo.finance/#/arbitrum',
     label: 'Arbitrum',
     logoUrl: arbitrumLogoUrl,
     circleLogoUrl: arbitrumCircleLogoUrl,
@@ -164,7 +172,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://bridge.arbitrum.io/',
     docs: 'https://offchainlabs.com/',
     explorer: 'https://goerli.arbiscan.io/',
-    infoLink: 'https://info.uniswap.org/#/arbitrum/',
+    infoLink: 'https://info.jingo.finance/#/arbitrum/',
     label: 'Arbitrum Goerli',
     logoUrl: arbitrumLogoUrl,
     defaultListUrl: ARBITRUM_LIST, // TODO: use arbitrum goerli token list
@@ -178,7 +186,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://wallet.polygon.technology/polygon/bridge',
     docs: 'https://polygon.io/',
     explorer: 'https://polygonscan.com/',
-    infoLink: 'https://info.uniswap.org/#/polygon/',
+    infoLink: 'https://info.jingo.finance/#/polygon/',
     label: 'Polygon',
     logoUrl: polygonMaticLogo,
     circleLogoUrl: polygonCircleLogoUrl,
@@ -193,7 +201,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://wallet.polygon.technology/polygon/bridge/deposit',
     docs: 'https://polygon.io/',
     explorer: 'https://mumbai.polygonscan.com/',
-    infoLink: 'https://info.uniswap.org/#/polygon/',
+    infoLink: 'https://info.jingo.finance/#/polygon/',
     label: 'Polygon Mumbai',
     logoUrl: polygonMaticLogo,
     nativeCurrency: { name: 'Polygon Mumbai Matic', symbol: 'mMATIC', decimals: 18 },
@@ -204,7 +212,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://www.portalbridge.com/#/transfer',
     docs: 'https://docs.celo.org/',
     explorer: 'https://celoscan.io/',
-    infoLink: 'https://info.uniswap.org/#/celo/',
+    infoLink: 'https://info.jingo.finance/#/celo/',
     label: 'Celo',
     logoUrl: celoLogo,
     circleLogoUrl: celoLogo,
@@ -218,7 +226,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://www.portalbridge.com/#/transfer',
     docs: 'https://docs.celo.org/',
     explorer: 'https://alfajores-blockscout.celo-testnet.org/',
-    infoLink: 'https://info.uniswap.org/#/celo/',
+    infoLink: 'https://info.jingo.finance/#/celo/',
     label: 'Celo Alfajores',
     logoUrl: celoLogo,
     nativeCurrency: { name: 'Celo', symbol: 'CELO', decimals: 18 },
@@ -230,7 +238,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://cbridge.celer.network/1/56',
     docs: 'https://docs.bnbchain.org/',
     explorer: 'https://bscscan.com/',
-    infoLink: 'https://info.uniswap.org/#/bnb/',
+    infoLink: 'https://info.jingo.finance/#/bnb/',
     label: 'BNB Chain',
     logoUrl: bnbLogo,
     circleLogoUrl: bnbCircleLogoUrl,
@@ -246,7 +254,7 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://core.app/bridge/',
     docs: 'https://docs.avax.network/',
     explorer: 'https://snowtrace.io/',
-    infoLink: 'https://info.uniswap.org/#/avax/', // TODO(WEB-2336): Add avax support to info site
+    infoLink: 'https://info.jingo.finance/#/avax/', // TODO(WEB-2336): Add avax support to info site
     label: 'Avalanche',
     logoUrl: avaxLogo,
     circleLogoUrl: avaxLogo,
@@ -263,7 +271,7 @@ const CHAIN_INFO: ChainInfoMap = {
     defaultListUrl: BASE_LIST,
     docs: 'https://docs.base.org',
     explorer: 'https://basescan.org/',
-    infoLink: 'https://info.uniswap.org/#/base/',
+    infoLink: 'https://info.jingo.finance/#/base/',
     label: 'Base',
     logoUrl: baseLogo,
     statusPage: 'https://status.base.org/',
