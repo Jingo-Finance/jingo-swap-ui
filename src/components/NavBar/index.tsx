@@ -4,7 +4,8 @@ import Web3Status from 'components/Web3Status'
 import { useIsPoolsPage } from 'hooks/useIsPoolsPage'
 import { Box } from 'nft/components/Box'
 import { Row } from 'nft/components/Flex'
-import { HorIcon } from 'nft/components/icons'
+//import { HorIcon } from 'nft/components/icons'
+import logo from '../../assets/images/plasma-logo.png';
 import { ReactNode, useCallback } from 'react'
 import { NavLink, NavLinkProps, useLocation, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
@@ -90,13 +91,16 @@ const Navbar = ({ blur }: { blur: boolean }) => {
         <Box display="flex" height="full" flexWrap="nowrap">
           <Box className={styles.leftSideContainer}>
             <Box className={styles.logoContainer}>
-              <HorIcon
-                width="48"
-                height="48"
-                data-testid="horswap-logo"
-                className={styles.logo}
-                onClick={handleHorIconClick}
-              />
+            <img
+            src={logo}
+            alt="Jingo Logo"
+            width="48"
+            height="48"
+            data-testid="jingo-logo"
+            className={styles.logo}
+            onClick={handleHorIconClick}
+    />
+
             </Box>
             <Box display={{ sm: 'flex', lg: 'none' }}>
               <ChainSelector leftAlign={true} />
